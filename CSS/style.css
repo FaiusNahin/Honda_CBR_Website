@@ -1,0 +1,68 @@
+/* Google Fonts Poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+#banner-container{
+}
+/* Banner Part */
+.banner-heading{
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 18px;
+}
+.left-banner>.banner-title{
+    width: 48%;
+    margin-bottom: 21px;
+}
+#purchase-button{
+    background:linear-gradient(to right, #E76F51, rgb(240, 117, 17));
+    padding:8px 30px;
+    border: none;
+    border-radius: 5px;
+}
+#purchase-button:hover{
+    background:linear-gradient(to right,rgb(240, 169, 17),#E76F51);
+}
+#card-info{
+    width: 50%;
+}
+.cart-span-1{
+    background-color:rgba(211, 211, 211, 0.555);
+    cursor: pointer;
+}
+.cart-span-1:hover{
+    border: 2px solid lightskyblue;
+}
+.cart-span-2:hover{
+    border: 2px solid lightgrey;
+}
+
+/* For Laptop/Dekstop Responsive*/
+@media only screen and (max-width:1440px){
+
+    /* For Banner Part */
+    .left-banner .banner-title{
+        width: 60%;
+        margin-bottom: 21px;
+    }
+}
+/*  For Mobile Responsive*/
+@media only screen and (max-width:576px){
+
+    /* For Banner Part */
+    .left-banner h1{
+        font-size: 37px;
+    }
+    .left-banner .banner-title{
+        width: 97%;
+        margin-bottom: 21px;
+    }
+    .right-banner{
+        padding-top: 56px;
+    }
+    #card-info{
+        width: 40%;
+    }
+    /* For Featured Heading */
+    .featured-heading h1{
+        font-size: 35px;
+    }
+}

@@ -13,9 +13,108 @@
 </head>
 
 <body>
+    <header style="background: #264653;">
+        <!-- Banner Part -->
+        <section class="py-5">
+            <div class="container-fluid d-flex justify-content-center align-items-center my-5 py-5"
+                id="banner-container">
+                <div class="row">
+                    <div class="left-banner d-flex flex-column flex-wrap align-content-center justify-content-center
+                        align-items-start col-12 col-lg-6">
+                        <p class="text-white-50 mb-2 fs-6" style="">Computer-controlled digital transistorized with
+                            electronic
+                            advance
+                        </p>
+                        <h1 class="text-white banner-heading" style="">Honda CBR 300R</h1>
+                        <p class="text-white-50 banner-title" style="">Amet minim mollit non deserunt ullamco est sit
+                            aliqua dolor
+                            do
+                            amet
+                            sint.
+                            Velit officia consequat
+                            duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="text-white" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                            id="purchase-button">Purchase</button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <!-- Shopping Cart -->
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="staticBackdropLabel">My Shopping Cart <span
+                                                class="fs-6 ps-3 text-secondary fw-light">(1
+                                                items)</span></h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <!-- Cart Body-->
+                                    <div class="modal-body d-flex justify-content-between">
+                                        <div class="" id="card-info">
+                                            <h6 class="text-success">Motor Bike - R15 (V3)</h6>
+                                            <img class="w-50" src="images/feature-bike -2.png" alt="">
+                                        </div>
+                                        <div>
+                                            <p class="text-danger fs-5">$1200</p>
+                                        </div>
+                                        <div>
+                                            <span class="cart-span-1 fs-5  px-2 py-1 rounded-1"
+                                                id="cart-span-1">-</span>
+                                            <span class="cart-span-2 fs-5 px-2 py-1 rounded-1 mx-1"
+                                                id="cart-span-2">1</span>
+                                            <span class="cart-span-1 fs-5 px-2 py-1 rounded-1" id="cart-span-1">+</span>
+                                        </div>
+                                    </div>
+                                    <!-- Cart button-->
+                                    <div class="modal-footer border border-0">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn text-white" id="purchase-button">Confirm
+                                            Order</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-banner d-flex justify-content-center col-12 col-lg-6">
+                        <img class="img-fluid" src="images/header-bike.png" alt="">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <!-- Featured Bikes -->
+        <section class="py-5">
+            <div class="container py-5">
+                <!-- Featured Heading -->
+                <div class="row row-12 row-lg-12">
+                    <div class="featured-heading d-flex flex-column align-items-center col-12 col-lg-12 pb-3">
+                        <h1 class="banner-heading">Fetured Bikes 2021</h1>
+                        <p class="" style="font-weight: 600; color: #E76F51;">Best bike collection</p>
+                    </div>
+                </div>
+                <!-- Featured Images -->
+                <div class="featured-images d-flex row row-col-1 row-col-lg-3 pt-5">
+                    <div class="col-12 col-lg-4 p-5">
+                        <img class="img-fluid" src="images/feature-bike-1.png" alt="">
+                    </div>
+                    <div class="col-12 col-lg-4 p-5">
+                        <img class="img-fluid" src="images/feature-bike -2.png" alt="">
+                    </div>
+                    <div class="col-12 col-lg-4 p-5">
+                        <img class="img-fluid" src="images/feature-bike-1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
 
     <script src="JS/bootstrap.bundle.min.js"></script>
-
 </body>
 
 </html>
