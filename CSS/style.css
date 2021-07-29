@@ -1,15 +1,12 @@
-/* Google Fonts Poppins*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-#banner-container{
-}
 /* Banner Part */
 .banner-heading{
     font-weight: 600;
     font-size: 48px;
     margin-bottom: 18px;
+    text-align: center;
 }
 .left-banner>.banner-title{
-    width: 48%;
+    width: 50%;
     margin-bottom: 21px;
 }
 #purchase-button{
@@ -34,25 +31,43 @@
 .cart-span-2:hover{
     border: 2px solid lightgrey;
 }
-
-/* For Laptop/Dekstop Responsive*/
-@media only screen and (max-width:1440px){
-
-    /* For Banner Part */
-    .left-banner .banner-title{
-        width: 60%;
-        margin-bottom: 21px;
-    }
+.gray-scaling{
+    filter: grayscale(100%);
+}
+/* For Happy Clients */
+.card-images{
+    width: 149px;
+    height: 149px;
+}
+#card-columns{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.card-body-info{
+    color: #6C6C6C;
+    width: 68%;"
+}
+/* FAQ Section */
+#FAQ-body{
+    width: 93%;
+    padding: 0px 48px;
+    margin: 48px;
+}
+#FAQ-left-image{
+    width: 80%;
 }
 /*  For Mobile Responsive*/
 @media only screen and (max-width:576px){
 
     /* For Banner Part */
-    .left-banner h1{
-        font-size: 37px;
+    .banner-heading{
+        font-size: 35px;
     }
-    .left-banner .banner-title{
-        width: 97%;
+    #small-title{
+        font-size: 14px;
+    }
+    .left-banner>.banner-title{
+        width: 100%;
         margin-bottom: 21px;
     }
     .right-banner{
@@ -61,8 +76,44 @@
     #card-info{
         width: 40%;
     }
+    #cart-items{
+        font-size: 10px;
+    }
     /* For Featured Heading */
-    .featured-heading h1{
+    .banner-heading{
+        font-size: 33px;
+    }
+    /* For Happy Clients Section */
+    #clients-heading{
+        width: 77%;
+    }
+    #card-columns{
+        padding: 0px 10px;
+        margin: 20px 0px;
+    }
+    .card-body-info{
+        width: 100%;
+    }
+    /* FAQ Section */
+    #FAQ-heading{
         font-size: 35px;
+    }
+    #FAQ-body{
+        width: 100%;
+        padding: 0px;
+        margin: 0px 0px 48px 0px;
+    }
+    #FAQ-left-image{
+        width: 100%;
+    }
+}
+
+/* For Laptop/Dekstop Responsive*/
+@media only screen and (max-width:1440px){
+
+    /* For Banner Part */
+    .left-banner .banner-title{
+        width: 67%;
+        margin-bottom: 21px;
     }
 }

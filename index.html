@@ -10,9 +10,16 @@
     <link rel="stylesheet" href="CSS/style.css">
     <!-- BootstrapLink -->
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <!-- Google Fonts Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- Font Awsome -->
+    <script src="https://kit.fontawesome.com/ca40b1d4c1.js" crossorigin="anonymous"></script>
+    <!----------------------->
 </head>
 
-<body>
+<body style="font-family: 'Poppins', sans-serif;">
     <header style="background: #264653;">
         <!-- Banner Part -->
         <section class="py-5">
@@ -21,7 +28,8 @@
                 <div class="row">
                     <div class="left-banner d-flex flex-column flex-wrap align-content-center justify-content-center
                         align-items-start col-12 col-lg-6">
-                        <p class="text-white-50 mb-2 fs-6" style="">Computer-controlled digital transistorized with
+                        <p class="text-white-50 mb-2" id="small-title" style="">Computer-controlled digital
+                            transistorized with
                             electronic
                             advance
                         </p>
@@ -44,27 +52,48 @@
                                     <!-- Shopping Cart -->
                                     <div class="modal-header">
                                         <h5 class="modal-title" id="staticBackdropLabel">My Shopping Cart <span
-                                                class="fs-6 ps-3 text-secondary fw-light">(1
+                                                class=" ps-3 text-secondary fw-light" id="cart-items">(1
                                                 items)</span></h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
                                     <!-- Cart Body-->
-                                    <div class="modal-body d-flex justify-content-between">
-                                        <div class="" id="card-info">
-                                            <h6 class="text-success">Motor Bike - R15 (V3)</h6>
-                                            <img class="w-50" src="images/feature-bike -2.png" alt="">
+                                    <div class="modal-body">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="" id="card-info">
+                                                <h6 class="text-success">Motor Bike - R15 (V2)</h6>
+                                                <img class="w-50" src="images/header-bike.png" alt="">
+                                            </div>
+                                            <div>
+                                                <p class="text-danger fs-5">$1250</p>
+                                            </div>
+                                            <div>
+                                                <span class="cart-span-1 fs-5  px-2 py-1 rounded-1"
+                                                    id="cart-span-1">-</span>
+                                                <span class="cart-span-2 fs-5 px-2 py-1 rounded-1 mx-1"
+                                                    id="cart-span-2">1</span>
+                                                <span class="cart-span-1 fs-5 px-2 py-1 rounded-1"
+                                                    id="cart-span-1">+</span>
+                                            </div>
                                         </div>
-                                        <div>
-                                            <p class="text-danger fs-5">$1200</p>
+                                        <div class="d-flex justify-content-between mt-5 mb-3">
+                                            <div class="" id="card-info">
+                                                <h6 class="text-success">Motor Bike - R15 (V3)</h6>
+                                                <img class="w-50" src="images/feature-bike-1.png" alt="">
+                                            </div>
+                                            <div>
+                                                <p class="text-danger fs-5">$1500</p>
+                                            </div>
+                                            <div>
+                                                <span class="cart-span-1 fs-5  px-2 py-1 rounded-1"
+                                                    id="cart-span-1">-</span>
+                                                <span class="cart-span-2 fs-5 px-2 py-1 rounded-1 mx-1"
+                                                    id="cart-span-2">0</span>
+                                                <span class="cart-span-1 fs-5 px-2 py-1 rounded-1"
+                                                    id="cart-span-1">+</span>
+                                            </div>
                                         </div>
-                                        <div>
-                                            <span class="cart-span-1 fs-5  px-2 py-1 rounded-1"
-                                                id="cart-span-1">-</span>
-                                            <span class="cart-span-2 fs-5 px-2 py-1 rounded-1 mx-1"
-                                                id="cart-span-2">1</span>
-                                            <span class="cart-span-1 fs-5 px-2 py-1 rounded-1" id="cart-span-1">+</span>
-                                        </div>
+
                                     </div>
                                     <!-- Cart button-->
                                     <div class="modal-footer border border-0">
@@ -90,22 +119,215 @@
         <section class="py-5">
             <div class="container py-5">
                 <!-- Featured Heading -->
-                <div class="row row-12 row-lg-12">
+                <div class="">
                     <div class="featured-heading d-flex flex-column align-items-center col-12 col-lg-12 pb-3">
                         <h1 class="banner-heading">Fetured Bikes 2021</h1>
                         <p class="" style="font-weight: 600; color: #E76F51;">Best bike collection</p>
                     </div>
                 </div>
                 <!-- Featured Images -->
-                <div class="featured-images d-flex row row-col-1 row-col-lg-3 pt-5">
-                    <div class="col-12 col-lg-4 p-5">
+                <div class="featured-images d-flex row row-cols-1 row-cols-2 row-cols-lg-3 pt-5">
+                    <div class="col-12 col-md-6 col-lg-4 p-5">
+                        <img class="img-fluid gray-scaling" src="images/feature-bike-1.png" alt="">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 p-5">
                         <img class="img-fluid" src="images/feature-bike-1.png" alt="">
                     </div>
-                    <div class="col-12 col-lg-4 p-5">
-                        <img class="img-fluid" src="images/feature-bike -2.png" alt="">
+                    <div class="col-12 col-md-6 col-lg-4 p-5">
+                        <img class="img-fluid gray-scaling" src="images/feature-bike-1.png" alt="">
                     </div>
-                    <div class="col-12 col-lg-4 p-5">
-                        <img class="img-fluid" src="images/feature-bike-1.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- Happy Clients Section -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-lg-1 justify-content-center">
+                    <!-- Happy Clients heading -->
+                    <div class="clients-heading d-flex justify-content-center col-12 col-lg-12 pb-3">
+                        <h1 class="banner-heading" id="clients-heading" style="color: #E76F51;"><span
+                                style="color:#0A0826;">Happy</span>
+                            Clients says</h1>
+                    </div>
+                    <!-- Happy Clients Card -->
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                        <div class="col" id="card-columns">
+                            <div class="card h-100  pt-5 d-flex align-items-center">
+                                <div class="mb-2">
+                                    <img src="images/user-1.png" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body d-flex flex-column align-items-center py-4">
+                                    <p class="card-text text-center mx-auto card-body-info">Slate
+                                        helps you see
+                                        how
+                                        many more days you need
+                                        to work to reach your financial
+                                        goal for the month and year.
+                                    </p>
+                                    <p class="">
+                                        <i class="fas fa-star fs-5" style="color: #E77C40;"></i>
+                                        <i class="fas fa-star fs-5" style="color: #E77C40;"></i>
+                                        <i class="fas fa-star fs-5" style="color: #E77C40;"></i>
+                                        <i class="fas fa-star fs-5" style="color: #E77C40;"></i>
+                                        <i class="far fa-star fs-5" style="color: #E77C40;"></i>
+                                    </p>
+                                    <p class=" fw-bold text-primary">Regina Miles</p>
+                                    <p class=" fw-bold">Banker</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col" id="card-columns">
+                            <div class="card h-100  pt-5 d-flex align-items-center">
+                                <div class="mb-2">
+                                    <img src="images/user-2.png" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body d-flex flex-column align-items-center py-4">
+                                    <p class="card-text text-center mx-auto card-body-info">Slate
+                                        helps you see
+                                        how
+                                        many more days you need
+                                        to work to reach your financial
+                                        goal for the month and year.
+                                    </p>
+                                    <p class="">
+                                        <i class="fas fa-star fs-5" style="color: #E77C40;"></i>
+                                        <i class="fas fa-star fs-5" style="color: #E77C40;"></i>
+                                        <i class="fas fa-star fs-5" style="color: #E77C40;"></i>
+                                        <i class="fas fa-star fs-5" style="color: #E77C40;"></i>
+                                        <i class="far fa-star fs-5" style="color: #E77C40;"></i>
+                                    </p>
+                                    <p class=" fw-bold text-primary">Regina Miles</p>
+                                    <p class=" fw-bold">Banker</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col" id="card-columns">
+                            <div class="card h-100 pt-5 d-flex align-items-center">
+                                <div class="mb-2">
+                                    <img src="images/user-3.png" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body d-flex flex-column align-items-center py-4">
+                                    <p class="card-text text-center mx-auto card-body-info">Slate
+                                        helps you see
+                                        how
+                                        many more days you need
+                                        to work to reach your financial
+                                        goal for the month and year.
+                                    </p>
+                                    <p class="">
+                                        <i class="fas fa-star fs-5" style="color: #E77C40;"></i>
+                                        <i class="fas fa-star fs-5" style="color: #E77C40;"></i>
+                                        <i class="fas fa-star fs-5" style="color: #E77C40;"></i>
+                                        <i class="fas fa-star fs-5" style="color: #E77C40;"></i>
+                                        <i class="far fa-star fs-5" style="color: #E77C40;"></i>
+                                    </p>
+                                    <p class=" fw-bold text-primary">Regina Miles</p>
+                                    <p class=" fw-bold">Banker</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FAQ Section-->
+        <section class="py-5">
+            <div class="container">
+                <div class="">
+                    <!-- FAQ Heading-->
+                    <div class="clients-heading d-flex justify-content-center col-12 col-lg-12 pb-3  my-5">
+                        <h1 class="banner-heading" id="FAQ-heading" style="color: #E76F51;"><span
+                                style="color:#0A0826;">Frequently Asked</span> Questions</h1>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2" id="FAQ-body">
+                        <div class="FAQ-left mb-5">
+                            <img class="img-fluid" id="FAQ-left-image" src="images/faq.png" alt="">
+                        </div>
+                        <div class="FAQ-right accordion" id="accordionExample">
+                            <div class="accordion-item mb-3 border border-1 border-info rounded-3">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <strong class="px-2 py-1">What are the most important things I should know about
+                                            riding a
+                                            bike?</strong>
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">Safety First! Always obey the rules of the road. Obey
+                                        all traffic signals, signs, and laws. Get in the mindset of “driving” your
+                                        bike—not just “riding” your bike. This will help you be a more focused and
+                                        legally compliant bike rider.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item my-3 border border-1 border-info rounded-3">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <strong class="px-2 py-1">How can I tell if my helmet is old and I need a new
+                                            one?</strong>
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Bear in mind that if the helmet did its job most people would tell you that they
+                                        did not even hit their head, or did not hit their head that hard. And the thin
+                                        shells on most helmets now tend to hide any dents in the foam.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item my-3 border border-1 border-info rounded-3">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        <strong class="px-2 py-1">My bike has been in storage is it safe to
+                                            ride?</strong>
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">Things are finally starting to warm up and it’s time to
+                                        get your motorcycle out of storage and ready for the riding season. If you’re
+                                        anything like us you’ve been chomping at the bit to get your bike out and go for
+                                        a long ride. At the first inclination of warm weather you just want to get out
+                                        and go, but it’s important to make sure your bike is as ready to go as you are.
+                                        This article will give you a few tips and pointers to help ensure your bike is
+                                        ready to go when the warm weather hits.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item my-3 border border-1 border-info rounded-3">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        <strong class="px-2 py-1">What rules should I follow when riding my
+                                            bike?</strong>
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>When riding, always:</strong>
+                                        <ul>
+                                            <li>Go With the Traffic Flow. Ride on the right in the same direction as
+                                                other
+                                                vehicles.</li>
+                                            <li>Obey All Traffic Laws. A bicycle is a vehicle and you're a driver.</li>
+                                            <li>Yield to Traffic When Appropriate.</li>
+                                            <li>Be Predictable.</li>
+                                            <li>Stay Alert at All Times.</li>
+                                            <li>Look Before Turning.</li>
+                                            <li>Watch for Parked Cars.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
