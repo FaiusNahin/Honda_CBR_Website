@@ -18,7 +18,7 @@
 #purchase-button:hover{
     background:linear-gradient(to right,rgb(240, 169, 17),#E76F51);
 }
-#card-info{
+#cart-info{
     width: 50%;
 }
 .cart-span-1{
@@ -123,7 +123,7 @@
     .right-banner{
         padding-top: 56px;
     }
-    #card-info{
+    #cart-info{
         width: 40%;
     }
     #cart-items{
@@ -161,10 +161,12 @@
         padding-bottom: 0;
     }
     .carousel-header{
-        font-size: 16px;
+        font-size: 17px;
     }
     .carousel-info{
-        font-size: 14px;
+        font-size: 13px;
+        margin-bottom: 0;
+        text-align: center;
     }
     /* For Stay In Touch Part */
     #contact-container{
