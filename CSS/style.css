@@ -56,6 +56,46 @@
 #FAQ-left-image{
     width: 80%;
 }
+/* Stay In Touch Section */
+#contact-container{
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+}
+#horizontal-row{
+    width: 10%;
+    border: 1px solid rgb(255, 103, 2);
+    font-weight: 900;
+}
+#contact-number{
+    font-size: 17px;
+}
+#exampleFormControlInput1, #exampleFormControlTextarea1{
+    padding: 20px 0;
+    padding-left: 20px;
+    background-color: rgb(236, 236, 236);
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+}
+#contact-us{
+    background: linear-gradient(345.88deg, rgba(255, 143, 52, 0.719) 47.7%, #FFFFFF 47.71%);
+}
+#send-button{
+    border-radius: 30px;
+    background-color: rgb(248, 162, 91);
+    border: 0;
+    padding: 4px 27px 7px 27px;
+    font-size: 20px;
+}
+#contact-form{
+    width: 50%;
+}
+#mobile-icon{
+    font-size: 50px;
+    color: rgb(248, 162, 91);
+}
+
 /*  For Mobile Responsive*/
 @media only screen and (max-width:576px){
 
@@ -105,6 +145,23 @@
     }
     #FAQ-left-image{
         width: 100%;
+    }
+    /* For Stay In Touch Part */
+    #send-button{
+        padding: 4px 19px 6px 18px;
+        font-size: 17px;
+    }
+    #contact-form{
+        width: 60%;
+    }
+    #footer-content-1{
+        flex-direction: column;
+        text-align: center;
+    }
+    #footer-content-2{
+        flex-direction: column;
+        text-align: center;
+        padding-top: 20px;
     }
 }
 
