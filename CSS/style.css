@@ -147,8 +147,12 @@
         width: 100%;
     }
     /* For Stay In Touch Part */
+    #contact-container{
+        width: 92%;
+        padding:0px 5px;
+    }
     #send-button{
-        padding: 4px 19px 6px 18px;
+        padding: 4px 15px 5px 15px;
         font-size: 17px;
     }
     #contact-form{
