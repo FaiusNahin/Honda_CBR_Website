@@ -5,7 +5,7 @@
     margin-bottom: 18px;
     text-align: center;
 }
-.left-banner>.banner-title{
+.left-banner .banner-title{
     width: 50%;
     margin-bottom: 21px;
 }
@@ -79,11 +79,11 @@
     font-size: 17px;
 }
 #contact-us{
-    background: linear-gradient(345.88deg, rgba(255, 143, 52, 0.719) 47.7%, #FFFFFF 47.71%);
+    background: linear-gradient(345.88deg, #399dc5 47.7%, #FFFFFF 47.71%);
 }
 #send-button{
     border-radius: 30px;
-    background-color: rgb(248, 162, 91);
+    background-color: #fd7e5e;
     border: 0;
     padding: 4px 27px 7px 27px;
     font-size: 20px;
@@ -93,8 +93,18 @@
 }
 #mobile-icon{
     font-size: 50px;
-    color: rgb(248, 162, 91);
+    color: #fd7e5e;
 }
+
+/* For Laptop/Dekstop Responsive*/
+@media only screen and (max-width:1440px){
+
+    /* For Banner Part */
+    .left-banner .banner-title{
+        width: 67%;
+        margin-bottom: 21px;
+    }
+} 
 
 /*  For Mobile Responsive*/
 @media only screen and (max-width:576px){
@@ -106,7 +116,7 @@
     #small-title{
         font-size: 14px;
     }
-    .left-banner>.banner-title{
+    .left-banner .banner-title{
         width: 100%;
         margin-bottom: 21px;
     }
@@ -146,6 +156,16 @@
     #FAQ-left-image{
         width: 100%;
     }
+    /* For New Bikes Part */
+    #carousel-title{
+        padding-bottom: 0;
+    }
+    .carousel-header{
+        font-size: 16px;
+    }
+    .carousel-info{
+        font-size: 14px;
+    }
     /* For Stay In Touch Part */
     #contact-container{
         width: 92%;
@@ -166,15 +186,5 @@
         flex-direction: column;
         text-align: center;
         padding-top: 20px;
-    }
-}
-
-/* For Laptop/Dekstop Responsive*/
-@media only screen and (max-width:1440px){
-
-    /* For Banner Part */
-    .left-banner .banner-title{
-        width: 67%;
-        margin-bottom: 21px;
     }
 }

@@ -8,7 +8,7 @@
     <title>Honda CBR</title>
     <!-- CSS Link -->
     <link rel="stylesheet" href="CSS/style.css">
-    <!-- BootstrapLink -->
+    <!-- Bootstrap Link -->
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
     <!-- Google Fonts Poppins -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -239,6 +239,7 @@
                         <h1 class="banner-heading" id="FAQ-heading" style="color: #E76F51;"><span
                                 style="color:#0A0826;">Frequently Asked</span> Questions</h1>
                     </div>
+                    <!-- FAQ Body -->
                     <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2" id="FAQ-body">
                         <div class="FAQ-left mb-5">
                             <img class="img-fluid" id="FAQ-left-image" src="images/faq.png" alt="">
@@ -332,14 +333,71 @@
                 </div>
             </div>
         </section>
+        <!-- Carousel Part -->
+        <section>
+            <div class="container">
+                <h1 class="banner-heading my-5 pb-5" id="FAQ-heading" style="color: #E76F51;"><span
+                        style="color:#0A0826;">New</span> Bikes</h1>
+                <div id="carouselExampleCaptions" class="carousel slide pb-5" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/bike-1.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-md-block" id="carousel-title">
+                                <h4 class="carousel-header text-warning">Ducati XDIAVEL S-73</h4>
+                                <p class="carousel-info text-info">XDiavel, the Ducati cruiser that combines the best of
+                                    worlds.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/bike-2.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-md-block" id="carousel-title">
+                                <h4 class="carousel-header text-warning">Motorcycles & Scooters</h4>
+                                <p class="carousel-info text-info">Buy Motorcycles & Scooters and get the best deals at
+                                    the lowest
+                                    prices on eBay!</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/bike-3.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-md-block" id="carousel-title">
+                                <h4 class="carousel-header text-warning">2021 Honda CBR500R</h4>
+                                <p class="carousel-info text-info">Honda Is it any wonder why the Honda CBR500R is one
+                                    of
+                                    our most popular sportbikes? </p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
         <!-- Stay In Touch -->
-        <section class="pb-4" id="contact-us">
+        <section class="py-5" id="contact-us">
             <div class="container pb-4 shadow" id="contact-container">
                 <!-- Stay In Touch Top Part -->
                 <div class="row row-col-1 row-col-md-1 row-col-lg-1 pt-5 mt-5">
                     <div
                         class="d-flex flex-column justify-content-center align-items-center col-12 col-md-12 col-lg-12">
-                        <h1>Stay in Touch</h1>
+                        <h1 class="banner-heading" id="FAQ-heading" style="color: #E76F51;">Stay In <span
+                                style="color:#0A0826;">Touch</span> </h1>
                         <hr class="" id="horizontal-row">
                         <p class="fs-5 text-center text-secondary py-4">Always keep your eyes on the road and your hands
                             on the
@@ -421,10 +479,11 @@
 
             </div>
         </section>
+
     </main>
 
 
-
+    <!-- Bootstrap JavaScript Link -->
     <script src="JS/bootstrap.bundle.min.js"></script>
 </body>
 
